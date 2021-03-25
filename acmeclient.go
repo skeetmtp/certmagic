@@ -329,7 +329,7 @@ var (
 
 	// RateLimitEventsWindow is the size of the sliding
 	// window that throttles events.
-	RateLimitEventsWindow = 1 * time.Minute
+	RateLimitEventsWindow = 0 * time.Minute
 )
 
 // Some default values passed down to the underlying ACME client.
